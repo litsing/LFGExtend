@@ -1,0 +1,16 @@
+## Interface: 110005
+## Title: |cffA236EFL|cff9448F1F|cff865BF2G|cff786DF4E|cff6A80F6X|r
+## Author: Tsing
+## Version: 2.0
+## SavedVariables:  LFGExDB
+## SavedVariablesPerCharacter: LFGCharacterDB
+
+
+## X-Embeds: Ace3
+## RequiredDeps:Ace3
+
+
+init.lua
+Locales\Load_Locales.xml
+Media\Load_Media.xml
+load_LFG.xml

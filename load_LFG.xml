@@ -1,0 +1,12 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Include file='UI.xml'/>
+	<Script file='Options.lua'/>
+	<Script file='API.lua'/>
+	<Script file='Fonts.lua'/>
+	<Script file='ChallengesUI.lua'/>
+	<Script file='LFG.lua'/>
+	<Script file='PVP.lua'/>
+	<Script file='Keystone.lua'/>	
+	<Script file='ElvUISkin.lua'/>
+	<Script file='AngryKeystones.lua'/>	
+</Ui>

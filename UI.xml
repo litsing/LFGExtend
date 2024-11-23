@@ -1,0 +1,713 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <FontFamily name="FontMedium12" virtual="true">
+        <Member alphabet="roman">
+            <Font font="Fonts\FRIZQT__.TTF" height="12">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="1"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="korean">
+            <Font font="Fonts\2002.TTF" height="11">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="simplifiedchinese">
+            <Font font="Fonts\ARKai_T.ttf" height="11">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="traditionalchinese">
+            <Font font="Fonts\blei00d.TTF" height="11">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="russian">
+            <Font font="Fonts\FRIZQT___CYR.TTF" height="11">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+    </FontFamily>
+        <FontFamily name="FontMedium13" virtual="true">
+        <Member alphabet="roman">
+            <Font font="Fonts\FRIZQT__.TTF" height="13">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="1"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="korean">
+            <Font font="Fonts\2002.TTF" height="12">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="simplifiedchinese">
+            <Font font="Fonts\ARKai_T.ttf" height="12">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="traditionalchinese">
+            <Font font="Fonts\blei00d.TTF" height="12">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="russian">
+            <Font font="Fonts\FRIZQT___CYR.TTF" height="12">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+    </FontFamily>
+    <FontFamily name="FontMedium15" virtual="true">
+        <Member alphabet="roman">
+            <Font font="Fonts\FRIZQT__.TTF" height="15">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="1"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="korean">
+            <Font font="Fonts\2002.TTF" height="15">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="simplifiedchinese">
+            <Font font="Fonts\ARKai_T.ttf" height="15">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="traditionalchinese">
+            <Font font="Fonts\blei00d.TTF" height="15">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+        <Member alphabet="russian">
+            <Font font="Fonts\FRIZQT___CYR.TTF" height="15">
+                <Shadow>
+                    <Offset>
+                        <AbsDimension x="1" y="-1"/>
+                    </Offset>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Shadow>
+            </Font>
+        </Member>
+    </FontFamily>
+
+    <FontFamily name="IndicatorTiny" virtual="true">
+        <Member alphabet="roman">
+            <Font font="Fonts\FRIZQT__.TTF" height="9">
+            </Font>
+        </Member>
+        <Member alphabet="korean">
+            <Font font="Fonts\2002.TTF" height="8">
+            </Font>
+        </Member>
+        <Member alphabet="simplifiedchinese">
+            <Font font="Fonts\ARKai_T.ttf" height="8">
+            </Font>
+        </Member>
+        <Member alphabet="traditionalchinese">
+            <Font font="Fonts\blei00d.TTF" height="8">
+            </Font>
+        </Member>
+        <Member alphabet="russian">
+            <Font font="Fonts\FRIZQT___CYR.TTF" height="8">
+            </Font>
+        </Member>
+    </FontFamily>
+    <Font name="FontNumber15" font="Fonts\FRIZQT__.TTF" height="15">
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1"/>
+            </Offset>
+            <Color r="0" g="0" b="0" a="1"/>
+        </Shadow>
+    </Font>
+    <Font name="FontNumber36" font="Fonts\FRIZQT__.TTF" height="36">
+        <Shadow>
+            <Offset>
+                <AbsDimension x="2" y="-2"/>
+            </Offset>
+            <Color r="0" g="0" b="0"/>
+        </Shadow>
+    </Font>
+        <Font name="IndicatorLetter" inherits="IndicatorTiny" height="8" monochrome="false" virtual="true">
+        <Color r="1" g="1" b="1"/>
+        <Shadow>
+            <Offset>
+                <AbsDimension x="0.6" y="-0.6"/>
+            </Offset>
+            <Color a="0.8" r="0" g="0" b="0"/>
+        </Shadow>
+    </Font>
+        <Button name="MythicPlusPageButtonTemplate" mixin="MythicPlusPageButtonMixin" virtual="true">
+        <Size x="12" y="12"/>
+        <HitRectInsets>
+            <AbsInset left="-6" right="-6" top="-6" bottom="-6"/>
+        </HitRectInsets>
+        <Layers>
+            <Layer level="OVERLAY">
+                <Texture parentKey="Icon">
+                    <Size x="12" y="12"/>
+                    <Anchors>
+                        <Anchor point="CENTER"/>
+                    </Anchors>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad method="OnLoad"/>
+            <OnEnter method="OnEnter"/>
+            <OnLeave method="OnLeave"/>
+            <OnMouseDown method="OnMouseDown"/>
+            <OnMouseUp method="OnMouseUp"/>
+            <OnClick method="OnClick"/>
+        </Scripts>
+    </Button>
+        <Button name="MythicPlusTabButtonTemplate" mixin="MythicPlusTabButtonMixin" virtual="true">
+        <Size x="48" y="24"/>
+        <Layers>
+            <Layer level="OVERLAY">
+                <Texture parentKey="Center" file="Interface\AddOns\LFGExtend\Media\Textures\TabButton" hidden="true">
+                    <Size x="38" y="38"/>
+                    <TexCoords left="0.125" right="0.375" top="0" bottom="0.5"/>
+                    <Anchors>
+                        <Anchor point="BOTTOM"/>
+                    </Anchors>
+                </Texture>
+                <Texture parentKey="Left" file="Interface\AddOns\LFGExtend\Media\Textures\TabButton" hidden="true">
+                    <Size x="19" y="38"/>
+                    <TexCoords left="0" right="0.125" top="0" bottom="0.5"/>
+                    <Anchors>
+                        <Anchor point="RIGHT" relativeKey="$parent.Center" relativePoint="LEFT"/>
+                    </Anchors>
+                </Texture>
+                <Texture parentKey="Right" file="Interface\AddOns\LFGExtend\Media\Textures\TabButton" hidden="true">
+                    <Size x="19" y="38"/>
+                    <TexCoords left="0.375" right="0.5" top="0" bottom="0.5"/>
+                    <Anchors>
+                        <Anchor point="LEFT" relativeKey="$parent.Center" relativePoint="RIGHT"/>
+                    </Anchors>
+                </Texture>
+            </Layer>
+            <Layer level="OVERLAY" textureSubLevel="1">
+                <Texture parentKey="Highlight" file="Interface\AddOns\LFGExtend\Media\Textures\TabButton" hidden="true">
+                    <Size y="12"/>
+                    <TexCoords left="0" right="0.3125" top="0.75" bottom="1"/>
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativeKey="$parent" relativePoint="TOPLEFT" x="0"/>
+                        <Anchor point="TOPRIGHT" relativeKey="$parent" relativePoint="TOPRIGHT" x="0"/>
+                    </Anchors>
+                </Texture>
+            </Layer>
+            <Layer level="OVERLAY" textureSubLevel="2">
+                <FontString inherits="FontMedium12" justifyH="CENTER" justifyV="MIDDLE" parentKey="ButtonText" maxLines="1">
+                    <Size x="0" y="0"/>
+                    <Color r="0.88" g="0.88" b="0.88"/>
+                    <Anchors>
+                        <Anchor point="CENTER" relativeKey="$parent" relativePoint="CENTER" x="0" y="0"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad method="OnLoad"/>
+            <OnEnter method="OnEnter"/>
+            <OnLeave method="OnLeave"/>
+            <OnClick method="OnClick"/>
+            <OnMouseDown method="OnMouseDown"/>
+            <OnMouseUp method="OnMouseUp"/>
+        </Scripts>
+    </Button>
+    <Frame name="HotkeyNotificationTemplate" parentKey="MouseButton" Alpha="0" virtual="true" mixin="HotkeyNotificationMixin">
+        <Size x="16" y="16"/>
+        <Layers>
+            <Layer level="OVERLAY">
+                <FontString inherits="IndicatorLetter" justifyH="CENTER" justifyV="MIDDLE" parentKey="Label">
+                    <Color r="0.6" g="0.6" b="0.6"/>
+                    <Size y="12"/>
+                    <Anchors>
+                        <Anchor point="RIGHT" relativeKey="$parent" relativePoint="RIGHT" x="0" y="0"/>
+                    </Anchors>
+                </FontString>
+                <Texture parentKey="MouseIcon" hidden="true">
+                    <Size x="20" y="20"/>
+                    <TexCoords left="0" right="0.25" top="0" bottom="1"/>
+                    <Anchors>
+                        <Anchor point="RIGHT" relativeKey="$parent.Label" relativePoint="LEFT" x="0" y="0"/>
+                    </Anchors>
+                </Texture>
+                <Texture parentKey="KeyIcon" hidden="true">
+                    <Size y="20"/>
+                    <Anchors>
+                        <Anchor point="RIGHT" relativeKey="$parent.Label" relativePoint="LEFT" x="0" y="0"/>
+                    </Anchors>
+                </Texture>
+
+            </Layer>
+            <Layer level="OVERLAY" textureSubLevel="2">
+                <FontString inherits="IndicatorLetter" justifyH="CENTER" justifyV="MIDDLE" parentKey="KeyLabel">
+                    <Color r="0.6" g="0.6" b="0.6"/>
+                    <Size y="12"/>
+                    <Anchors>
+                        <Anchor point="CENTER" relativeKey="$parent.KeyIcon" relativePoint="CENTER" x="0" y="0"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+
+            <Layer level="BACKGROUND">
+                <Texture setAllPoints="true" parentKey="GradientM">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativeKey="$parent.Label" relativePoint="TOPLEFT" x="-6"/>
+                        <Anchor point="BOTTOMRIGHT" relativeKey="$parent.Label" relativePoint="BOTTOMRIGHT" x="-6"/>
+                    </Anchors>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                </Texture>
+                <Texture setAllPoints="true" parentKey="GradientR">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativeKey="$parent.GradientM" relativePoint="TOPRIGHT"/>
+                        <Anchor point="BOTTOMRIGHT" relativeKey="$parent.Label" relativePoint="BOTTOMRIGHT" x="10"/>
+                    </Anchors>
+                    <Color r="0" g="0" b="0" a="0.6"/>
+                    <Gradient orientation="HORIZONTAL">
+                        <MinColor r="1" g="1" b="1" a="1"/>
+                        <MaxColor r="1" g="1" b="1" a="0"/>
+                    </Gradient>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnShow method="OnShow"/>
+            <OnHide method="OnHide"/>
+            <OnEvent method="OnEvent"/>
+        </Scripts>
+    </Frame>
+    <Frame name="MythicPlusAffixFrameTemplate" mixin="MythicPlusAffixFrameMixin" virtual="true" parentArray="AffixFrames" hidden="true">
+        <Size x="32" y="32"/>
+        <Layers>
+            <Layer level="OVERLAY">
+                <Texture parentKey="Icon">
+                    <TexCoords left="0.08" right="0.92" top="0.08" bottom="0.92"/>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnEnter method="OnEnter"/>
+            <OnLeave method="OnLeave"/>
+            <OnMouseDown method="OnMouseDown"/>
+        </Scripts>
+    </Frame>
+
+    <Frame name="MythicPlusTemplate" virtual="true">
+        <Size x="430"  y="390"/>
+                        <Anchors>
+                            <Anchor point="TOPLEFT" x="35" y="-80"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture parentKey="Header" Alpha="0.6">
+                                    <Size y="96"/>
+                                    <TexCoords left="0" right="1" top="0.6758" bottom="0.8242"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT"/>
+                                        <Anchor point="TOPRIGHT"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="ContentBackdrop" Alpha="0.6">
+                                    <Color r="0.08" g="0.08" b="0.08"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent" relativePoint="TOPLEFT" x="0" y="-96"/>
+                                        <Anchor point="BOTTOMRIGHT" relativeKey="$parent" relativePoint="BOTTOMRIGHT" x="0" y="0"/>
+                                    </Anchors>
+                                </Texture>
+                            </Layer>
+                            <Layer level="OVERLAY">
+                                <FontString parentKey="MapName" inherits="FontMedium15" justifyH="CENTER" justifyV="BOTTOM" text=" ">
+                                    <Size x="320" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Header" relativePoint="CENTER" x="0" y="0"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Date" inherits="FontMedium12" justifyH="CENTER" justifyV="TOP" text=" ">
+                                    <Size x="160" y="0"/>
+                                    <Color r="0.9" g="0.9" b="0.9"/>
+                                    <Anchors>
+                                        <Anchor point="TOP" relativeKey="$parent.Header" relativePoint="CENTER" x="0" y="-4"/>
+                                    </Anchors>
+                                </FontString>
+
+<!--                                 <FontString parentKey="Label1" inherits="FontMedium12" justifyH="LEFT" justifyV="TOP" text="MYTHIC_PLUS_SEASON_BEST">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPLEFT" x="24" y="-56"/>
+                                    </Anchors>
+                                </FontString> -->
+                                <Texture parentKey="ScoreBound" file="Interface\AddOns\LFGExtend\Media\Textures\ScoreBound" Alpha="0.5">
+                                    <Size x="65" y="38"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPLEFT" x="24" y="-50"/>
+                                    </Anchors>
+                                </Texture>
+                                <FontString parentKey="Score" inherits="FontNumber36" justifyH="CENTER" justifyV="MIDDLE" text="280">
+                                    <Size x="0" y="0"/>
+                                    <Anchors>
+                                        <Anchor point="CENTER" relativeKey="$parent.ScoreBound" relativePoint="CENTER" x="0" y="0"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Level" inherits="FontNumber36" justifyH="CENTER" justifyV="MIDDLE" text="15">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="LEFT" relativeKey="$parent.ScoreBound" relativePoint="RIGHT" x="55" y="0"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Duration" inherits="FontNumber15" justifyH="CENTER" justifyV="BOTTOM" text="12:08">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Level" relativePoint="BOTTOM" x="0" y="-10"/>
+                                    </Anchors>
+                                </FontString>
+<!-- 
+                                <FontString parentKey="Label2" inherits="FontMedium12" justifyH="LEFT" justifyV="TOP" text="Affixes">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPRIGHT" x="-148" y="-56"/>
+                                    </Anchors>
+                                </FontString> -->
+
+   <!--                              <FontString parentKey="Label3" inherits="FontMedium12" justifyH="LEFT" justifyV="TOP" text="Timer">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPLEFT" x="24" y="-128"/>
+                                    </Anchors>
+                                </FontString> -->
+                                <Texture parentKey="Timeline">
+                                    <Size x="260" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="CENTER" relativeKey="$parent.ContentBackdrop" relativePoint="TOP" y="-176"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="TimelineLeft">
+                                    <Size x="10" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Gradient orientation="HORIZONTAL">
+                                        <MinColor r="1" g="1" b="1" a="0"/>
+                                        <MaxColor r="1" g="1" b="1" a="1"/>
+                                    </Gradient>
+                                    <Anchors>
+                                        <Anchor point="RIGHT" relativeKey="$parent.Timeline" relativePoint="LEFT"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="TimelineRight">
+                                    <Size x="10" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Gradient orientation="HORIZONTAL">
+                                        <MinColor r="1" g="1" b="1" a="1"/>
+                                        <MaxColor r="1" g="1" b="1" a="0"/>
+                                    </Gradient>
+                                    <Anchors>
+                                        <Anchor point="LEFT" relativeKey="$parent.Timeline" relativePoint="RIGHT"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark1">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="CENTER" x="-64"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark2">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="CENTER" x="0"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark3">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="CENTER" x="64"/>
+                                    </Anchors>
+                                </Texture>
+                                <FontString parentKey="Timer3" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="22:48">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark1" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Timer2" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="22:48">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark2" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Timer1" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="22:48">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark3" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Area3" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="+3">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="TOP" x="-96" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Area2" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="+2">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="TOP" x="-32" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Area1" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="+1">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="TOP" x="32" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Area0" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="OT">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Timeline" relativePoint="TOP" x="96" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <Texture parentKey="Pointer" >
+                                    <Size x="12" y="12"/>
+                                    <Anchors>
+                                        <Anchor point="TOP" relativeKey="$parent.Timeline" relativePoint="BOTTOM" x="0"/>
+                                    </Anchors>
+                                </Texture>
+
+                                <FontString parentKey="Label4" inherits="FontMedium12" justifyH="LEFT" justifyV="TOP" text="Members">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPLEFT" x="24" y="-216"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="MemberText" inherits="FontMedium13" justifyH="LEFT" justifyV="TOP" text=" " spacing="6">
+                                    <Size x="320" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent.ContentBackdrop" relativePoint="TOPLEFT" x="24" y="-234"/>
+                                    </Anchors>
+                                </FontString>
+
+<!--                                 <Texture parentKey="TabDivider" file="Interface\AddOns\LFGExtend\Media\Textures\TabDivider">
+                                    <Size x="300" y="20"/>
+                                    <Anchors>
+                                        <Anchor point="TOP" relativeKey="$parent" relativePoint="TOP" y="-68"/>
+                                    </Anchors>
+                                </Texture> -->
+                            </Layer>
+                        </Layers>
+                        <Frames>
+<!--                             <Button parentKey="LeftArrow" inherits="MythicPlusPageButtonTemplate">
+                                <KeyValues>
+                                    <KeyValue key="increment" value="1" type="number"/>
+                                </KeyValues>
+                                <Anchors>
+                                    <Anchor point="RIGHT" relativeKey="$parent.Header" relativePoint="CENTER" x="-96"/>
+                                </Anchors>
+                            </Button>
+                            <Button parentKey="RightArrow" inherits="MythicPlusPageButtonTemplate">
+                                <KeyValues>
+                                    <KeyValue key="increment" value="-1" type="number"/>
+                                </KeyValues>
+                                <Anchors>
+                                    <Anchor point="LEFT" relativeKey="$parent.Header" relativePoint="CENTER" x="96"/>
+                                </Anchors>
+                            </Button>
+
+                            <Button inherits="MythicPlusTabButtonTemplate" id="1" parentKey="InTime">
+                                <Anchors>
+                                    <Anchor point="BOTTOMLEFT" relativeKey="$parent" relativePoint="TOPLEFT" x="24" y="-88"/>
+                                </Anchors>
+                            </Button>
+                            <Button inherits="MythicPlusTabButtonTemplate" id="2" parentKey="OverTime">
+                                <Anchors>
+                                    <Anchor point="BOTTOMLEFT" relativeKey="$parent.InTime" relativePoint="BOTTOMRIGHT"/>
+                                </Anchors>
+                            </Button> -->
+                        </Frames> 
+                    </Frame>
+                    <Frame name="ThisWeekBestTemplate" virtual="true">
+                        <Size x="380"  y="50"/>
+                        <Anchors>
+                            <Anchor point="BOTTOMLEFT" x="58" y="38"/>
+                        </Anchors>
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                            <FontString parentKey="weekbestlable" inherits="FontMedium12" justifyH="LEFT" justifyV="BOTTOM" text="This Week Best">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="TOPLEFT" relativeKey="$parent" relativePoint="TOPLEFT" x="10" y="10"/>
+                                    </Anchors>
+                                </FontString>
+                                <Texture parentKey="Weekline">
+                                    <Size x="260" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="CENTER" relativeKey="$parent" relativePoint="CENTER" y="0"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="WeeklineLeft">
+                                    <Size x="10" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Gradient orientation="HORIZONTAL">
+                                        <MinColor r="1" g="1" b="1" a="0"/>
+                                        <MaxColor r="1" g="1" b="1" a="1"/>
+                                    </Gradient>
+                                    <Anchors>
+                                        <Anchor point="RIGHT" relativeKey="$parent.Weekline" relativePoint="LEFT"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="WeeklineRight">
+                                    <Size x="10" y="2"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Gradient orientation="HORIZONTAL">
+                                        <MinColor r="1" g="1" b="1" a="1"/>
+                                        <MaxColor r="1" g="1" b="1" a="0"/>
+                                    </Gradient>
+                                    <Anchors>
+                                        <Anchor point="LEFT" relativeKey="$parent.Weekline" relativePoint="RIGHT"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark1">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Weekline" relativePoint="CENTER" x="-64"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark2">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Weekline" relativePoint="CENTER" x="0"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Mark3">
+                                    <Size x="2" y="14"/>
+                                    <Color r="0.5" g="0.5" b="0.5"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Weekline" relativePoint="CENTER" x="64"/>
+                                    </Anchors>
+                                </Texture>
+                                <Texture parentKey="Pointer" >
+                                    <Size x="12" y="12"/>
+                                    <Anchors>
+                                        <Anchor point="TOP" relativeKey="$parent.Weekline" relativePoint="BOTTOM" x="0" y = "0"/>
+                                    </Anchors>
+                                </Texture>
+                                <FontString parentKey="Week3" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="20">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark1" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Week2" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="21">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark2" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="Week1" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="22">
+                                    <Size x="0" y="0"/>
+                                    <Color r="0.33" g="0.33" b="0.33"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Mark3" relativePoint="TOP" x="0" y="2"/>
+                                    </Anchors>
+                                </FontString>
+                                <FontString parentKey="mapname" inherits="FontMedium12" justifyH="CENTER" justifyV="BOTTOM" text="name">
+                                    <Size x="0" y="0"/>
+                                    <Color r="1" g="1" b="1"/>
+                                    <Anchors>
+                                        <Anchor point="BOTTOM" relativeKey="$parent.Weekline" relativePoint="TOP" x="0" y="-35"/>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+</Ui>
