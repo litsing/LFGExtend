@@ -183,8 +183,8 @@ end
 --             -- local filterByRole = ignoreNoRole and not remainingRole or false
 --             local filterByDungeon = false
 --             if selectedDungeonCount() > 0 then
---                 if DungeonData[searchResultInfo.activityID] and DungeonData[searchResultInfo.activityID].selected then
---                     filterByDungeon = not DungeonData[searchResultInfo.activityID].selected
+--                 if DungeonData[searchResultInfo.activityIDs[1]] and DungeonData[searchResultInfo.activityIDs[1]].selected then
+--                     filterByDungeon = not DungeonData[searchResultInfo.activityIDs[1]].selected
 --                 else
 --                     filterByDungeon = true
 --                 end
@@ -413,15 +413,16 @@ local function LFGListSearch_Update(self)
         activityName = G.MapShortName[searchResultInfo.activityIDs[1]] or activityName
     end
     --颜色区别难度
+    local orderIndex = G.DifficultyName[activityInfo.shortName]
+    if orderIndex and orderIndex > 0 then
     if LFG.db.profile.options.LFGMapNameColorEnable then
         activityName = activityName:match(formatMapName) or activityName
-        local orderIndex = G.DifficultyName[activityInfo.shortName]
-        if orderIndex and orderIndex > 0 then
             activityColor = LFG.db.profile.options.DungeonColor[orderIndex]
             activityName = LFG:StringWithRGB(activityName, isAppFinished and disableColor or activityColor)
-        end
+        
     elseif not LFG.db.profile.options.LFGMapNameColorEnable and LFG.db.profile.options.LFGShortMapEnable then
         activityName = activityName..G.DifficultyShortName[G.DifficultyName[activityInfo.shortName]]
+    end
     end
     
     --显示队长分数
@@ -858,7 +859,7 @@ function LFG:LFG_LIST_APPLICANT_LIST_UPDATED()
     local activeEntryInfo = C_LFGList.GetActiveEntryInfo()
     if not activeEntryInfo then return end
     
-    local activityInfo = C_LFGList.GetActivityInfoTable(activeEntryInfo.activityID);
+    local activityInfo = C_LFGList.GetActivityInfoTable(activeEntryInfo.activityIDs[1]);
     local numAllowed = activityInfo.maxNumPlayers;
     
     if numAllowed == 0 then
@@ -1354,7 +1355,7 @@ function LFG:LookingForGroupFrames()
             hook_LFGListApplicationViewer(button, id)
     end)
     
-    BlzBugFixed()
+    -- BlzBugFixed()
     for i = 1, 4 do
         local activityInfo = C_LFGList.GetActivityInfoTable(i + 699)
         G.DifficultyName[activityInfo.shortName] = i
