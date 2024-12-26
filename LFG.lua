@@ -376,7 +376,7 @@ local function LFGListSearch_Update(self)
     end
     local _, appStatus, pendingStatus, appDuration = C_LFGList.GetApplicationInfo(resultID);
     local searchResultInfo = C_LFGList.GetSearchResultInfo(resultID);
-    local activityInfo = C_LFGList.GetActivityInfoTable(searchResultInfo.activityID)
+    local activityInfo = C_LFGList.GetActivityInfoTable(searchResultInfo.activityIDs[1])
     local iLvlColor = LFG.db.profile.options.LevelColor[6]
     local activityColor = LFG_LIST_DELISTED_FONT_COLOR;
     local disableColor = LFG_LIST_DELISTED_FONT_COLOR;
@@ -410,7 +410,7 @@ local function LFGListSearch_Update(self)
     --缩写地图名
     if LFG.db.profile.options.LFGShortMapEnable then
         activityName = activityName:match(formatMapName) or activityName
-        activityName = G.MapShortName[searchResultInfo.activityID] or activityName
+        activityName = G.MapShortName[searchResultInfo.activityIDs[1]] or activityName
     end
     --颜色区别难度
     if LFG.db.profile.options.LFGMapNameColorEnable then
